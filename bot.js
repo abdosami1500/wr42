@@ -503,5 +503,4 @@ client.on("guildCreate", guild => {
   .setTimestamp()
   client.channels.get("476342429575020544").send(embed)
 });
-
-client.login('NTI5NjA2NTI2Mjc3NjQ4Mzk1.DwzUhw.Pmcby_Hv92ZxlDCloL5O6WvZmYE');
+client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
